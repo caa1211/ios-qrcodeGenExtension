@@ -18,6 +18,9 @@
 		AD636EAD1BF24BF80036D3A4 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD636EAB1BF24BF80036D3A4 /* MainInterface.storyboard */; };
 		AD636EB11BF24BF80036D3A4 /* qrcoGenExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = AD636EA61BF24BF80036D3A4 /* qrcoGenExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		AD636EB71BF2561D0036D3A4 /* GetURL.js in Resources */ = {isa = PBXBuildFile; fileRef = AD636EB61BF2561D0036D3A4 /* GetURL.js */; settings = {ASSET_TAGS = (); }; };
+		AD636EC01BF25D290036D3A4 /* ActionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD636EBF1BF25D290036D3A4 /* ActionViewController.m */; };
+		AD636EC31BF25D290036D3A4 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD636EC11BF25D290036D3A4 /* MainInterface.storyboard */; };
+		AD636EC71BF25D290036D3A4 /* qrcoCamExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = AD636EBC1BF25D290036D3A4 /* qrcoCamExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +30,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = AD636EA51BF24BF80036D3A4;
 			remoteInfo = qrcoGenExtension;
+		};
+		AD636EC51BF25D290036D3A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD636E801BF24BD00036D3A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD636EBB1BF25D290036D3A4;
+			remoteInfo = qrcoCamExtension;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -38,6 +48,7 @@
 			dstSubfolderSpec = 13;
 			files = (
 				AD636EB11BF24BF80036D3A4 /* qrcoGenExtension.appex in Embed App Extensions */,
+				AD636EC71BF25D290036D3A4 /* qrcoCamExtension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -63,6 +74,11 @@
 		AD636EAC1BF24BF80036D3A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		AD636EAE1BF24BF80036D3A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD636EB61BF2561D0036D3A4 /* GetURL.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = GetURL.js; sourceTree = "<group>"; };
+		AD636EBC1BF25D290036D3A4 /* qrcoCamExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = qrcoCamExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD636EBE1BF25D290036D3A4 /* ActionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActionViewController.h; sourceTree = "<group>"; };
+		AD636EBF1BF25D290036D3A4 /* ActionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActionViewController.m; sourceTree = "<group>"; };
+		AD636EC21BF25D290036D3A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		AD636EC41BF25D290036D3A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C3C5F6DB60CB4B184A7D7789 /* Pods-qrcoGenExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-qrcoGenExtension.release.xcconfig"; path = "Pods/Target Support Files/Pods-qrcoGenExtension/Pods-qrcoGenExtension.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -79,6 +95,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				5085B9A58251DDB0E913EAB9 /* libPods-qrcoGenExtension.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD636EB91BF25D290036D3A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,6 +130,7 @@
 			children = (
 				AD636E8A1BF24BD00036D3A4 /* qrcg */,
 				AD636EA71BF24BF80036D3A4 /* qrcoGenExtension */,
+				AD636EBD1BF25D290036D3A4 /* qrcoCamExtension */,
 				AD636E891BF24BD00036D3A4 /* Products */,
 				9E3834FAA6AA7F0AD519E07C /* Pods */,
 				33BFD7DA7E98110DCB549D10 /* Frameworks */,
@@ -118,6 +142,7 @@
 			children = (
 				AD636E881BF24BD00036D3A4 /* qrcg.app */,
 				AD636EA61BF24BF80036D3A4 /* qrcoGenExtension.appex */,
+				AD636EBC1BF25D290036D3A4 /* qrcoCamExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -158,6 +183,17 @@
 			path = qrcoGenExtension;
 			sourceTree = "<group>";
 		};
+		AD636EBD1BF25D290036D3A4 /* qrcoCamExtension */ = {
+			isa = PBXGroup;
+			children = (
+				AD636EBE1BF25D290036D3A4 /* ActionViewController.h */,
+				AD636EBF1BF25D290036D3A4 /* ActionViewController.m */,
+				AD636EC11BF25D290036D3A4 /* MainInterface.storyboard */,
+				AD636EC41BF25D290036D3A4 /* Info.plist */,
+			);
+			path = qrcoCamExtension;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -174,6 +210,7 @@
 			);
 			dependencies = (
 				AD636EB01BF24BF80036D3A4 /* PBXTargetDependency */,
+				AD636EC61BF25D290036D3A4 /* PBXTargetDependency */,
 			);
 			name = qrcg;
 			productName = qrcg;
@@ -199,6 +236,23 @@
 			productReference = AD636EA61BF24BF80036D3A4 /* qrcoGenExtension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
+		AD636EBB1BF25D290036D3A4 /* qrcoCamExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD636EC81BF25D290036D3A4 /* Build configuration list for PBXNativeTarget "qrcoCamExtension" */;
+			buildPhases = (
+				AD636EB81BF25D290036D3A4 /* Sources */,
+				AD636EB91BF25D290036D3A4 /* Frameworks */,
+				AD636EBA1BF25D290036D3A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = qrcoCamExtension;
+			productName = qrcoCamExtension;
+			productReference = AD636EBC1BF25D290036D3A4 /* qrcoCamExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -212,6 +266,9 @@
 						CreatedOnToolsVersion = 7.0.1;
 					};
 					AD636EA51BF24BF80036D3A4 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					AD636EBB1BF25D290036D3A4 = {
 						CreatedOnToolsVersion = 7.0.1;
 					};
 				};
@@ -231,6 +288,7 @@
 			targets = (
 				AD636E871BF24BD00036D3A4 /* qrcg */,
 				AD636EA51BF24BF80036D3A4 /* qrcoGenExtension */,
+				AD636EBB1BF25D290036D3A4 /* qrcoCamExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -252,6 +310,14 @@
 			files = (
 				AD636EAD1BF24BF80036D3A4 /* MainInterface.storyboard in Resources */,
 				AD636EB71BF2561D0036D3A4 /* GetURL.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD636EBA1BF25D290036D3A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD636EC31BF25D290036D3A4 /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +375,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AD636EB81BF25D290036D3A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD636EC01BF25D290036D3A4 /* ActionViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -316,6 +390,11 @@
 			isa = PBXTargetDependency;
 			target = AD636EA51BF24BF80036D3A4 /* qrcoGenExtension */;
 			targetProxy = AD636EAF1BF24BF80036D3A4 /* PBXContainerItemProxy */;
+		};
+		AD636EC61BF25D290036D3A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD636EBB1BF25D290036D3A4 /* qrcoCamExtension */;
+			targetProxy = AD636EC51BF25D290036D3A4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -340,6 +419,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				AD636EAC1BF24BF80036D3A4 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+		AD636EC11BF25D290036D3A4 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD636EC21BF25D290036D3A4 /* Base */,
 			);
 			name = MainInterface.storyboard;
 			sourceTree = "<group>";
@@ -477,6 +564,32 @@
 			};
 			name = Release;
 		};
+		AD636EC91BF25D290036D3A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = qrcoCamExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yahoo.qrcg.qrcoCamExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AD636ECA1BF25D290036D3A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = qrcoCamExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yahoo.qrcg.qrcoCamExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -506,6 +619,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		AD636EC81BF25D290036D3A4 /* Build configuration list for PBXNativeTarget "qrcoCamExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD636EC91BF25D290036D3A4 /* Debug */,
+				AD636ECA1BF25D290036D3A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

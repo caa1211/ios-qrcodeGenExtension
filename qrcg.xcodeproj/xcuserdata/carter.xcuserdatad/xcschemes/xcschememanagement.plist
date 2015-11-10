@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>qrcoCamExtension.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
 		<key>qrcoGenExtension.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -23,6 +28,11 @@
 			<true/>
 		</dict>
 		<key>AD636EA51BF24BF80036D3A4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AD636EBB1BF25D290036D3A4</key>
 		<dict>
 			<key>primary</key>
 			<true/>
