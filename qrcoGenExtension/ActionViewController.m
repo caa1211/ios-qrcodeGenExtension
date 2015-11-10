@@ -19,35 +19,38 @@
 
 @implementation ActionViewController
 
+
+- (NSString *)URLDecode:(NSString *)stringToDecode
+{
+    NSString *result = [stringToDecode stringByReplacingOccurrencesOfString:@"+" withString:@" "];
+    result = [result stringByReplacingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+    return result;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    // Get the item[s] we're handling from the extension context.
-    
-    // For example, look for an image and place it into an image view.
-    // Replace this with something appropriate for the type[s] your extension supports.
-    // BOOL imageFound = NO;
+}
+
+
+-(void) viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
     for (NSExtensionItem *item in self.extensionContext.inputItems) {
         for (NSItemProvider *itemProvider in item.attachments) {
-            
-            
-            
             if ([itemProvider hasItemConformingToTypeIdentifier:(NSString *)kUTTypeURL]) {
-                // It's a plain text!
-                
+
                 [itemProvider loadItemForTypeIdentifier:(NSString *)kUTTypeURL options:nil completionHandler:^(NSURL *item, NSError *error) {
                     NSLog(@"Type is URL:%@",kUTTypeURL);
                     if (item) {
                         [[NSOperationQueue mainQueue] addOperationWithBlock:^{
-                            NSLog(@"========URL %@==================", item.absoluteString);
-                            self.qrcodeView.image = [QRCodeGenerator qrImageForString:item.absoluteString imageSize:self.qrcodeView.bounds.size.width];
+                            NSString *urlString = item.absoluteString;
+                            self.qrcodeView.image = [QRCodeGenerator qrImageForString:urlString imageSize:self.qrcodeView.bounds.size.width];
                             
-                            
+                            self.titleLabel.text = [self URLDecode: urlString];
                         }];
                     }
                 }];
             }
-
+            
             
             if ([itemProvider hasItemConformingToTypeIdentifier:(NSString *)kUTTypePropertyList]) {
                 
@@ -71,34 +74,11 @@
                             }
                         }];
                     }
-
+                    
                     
                 }];
             }
-            
-            
-//            if ([itemProvider hasItemConformingToTypeIdentifier:(NSString *)kUTTypeImage]) {
-//                // This is an image. We'll load it, then place it in our image view.
-//                __weak UIImageView *imageView = self.imageView;
-//                [itemProvider loadItemForTypeIdentifier:(NSString *)kUTTypeImage options:nil completionHandler:^(UIImage *image, NSError *error) {
-//                    if(image) {
-//                        [[NSOperationQueue mainQueue] addOperationWithBlock:^{
-//                            [imageView setImage:image];
-//                        }];
-//                    }
-//                }];
-//                
-//                imageFound = YES;
-//                break;
-//            }
-
-        
         }
-        
-//        if (imageFound) {
-//            // We only handle one image, so stop looking for more.
-//            break;
-//        }
     }
 }
 

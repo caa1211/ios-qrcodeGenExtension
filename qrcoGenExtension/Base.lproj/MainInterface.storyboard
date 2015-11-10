@@ -32,15 +32,15 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9ga-4F-77Z">
                                 <rect key="frame" x="0.0" y="64" width="320" height="464"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jrP-we-BFr">
-                                <rect key="frame" x="40" y="141" width="240" height="240"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jrP-we-BFr">
+                                <rect key="frame" x="40" y="114" width="240" height="240"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="240" id="BBl-Yj-rvo"/>
                                     <constraint firstAttribute="width" constant="240" id="ckX-Qh-lGO"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4PQ-ie-ZCI">
-                                <rect key="frame" x="40" y="413" width="240" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4PQ-ie-ZCI">
+                                <rect key="frame" x="40" y="383" width="240" height="0.0"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="240" id="Jnx-vG-fzY"/>
                                 </constraints>
@@ -60,7 +60,7 @@
                             <constraint firstItem="n38-gi-rB5" firstAttribute="top" secondItem="9ga-4F-77Z" secondAttribute="bottom" id="eQg-nn-Zy4"/>
                             <constraint firstItem="jrP-we-BFr" firstAttribute="centerX" secondItem="zMn-AG-sqS" secondAttribute="centerX" id="kRm-dc-Fue"/>
                             <constraint firstItem="4PQ-ie-ZCI" firstAttribute="top" secondItem="jrP-we-BFr" secondAttribute="bottom" constant="29" id="koZ-FK-Q8c"/>
-                            <constraint firstItem="jrP-we-BFr" firstAttribute="centerY" secondItem="zMn-AG-sqS" secondAttribute="centerY" id="r3W-ps-7rp"/>
+                            <constraint firstItem="jrP-we-BFr" firstAttribute="top" secondItem="NOA-Dm-cuz" secondAttribute="bottom" constant="50" id="tdU-JK-FqL"/>
                             <constraint firstItem="NOA-Dm-cuz" firstAttribute="top" secondItem="qkL-Od-lgU" secondAttribute="bottom" id="we0-1t-bgp"/>
                         </constraints>
                     </view>

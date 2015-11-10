@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -18,8 +19,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fGg-se-81R">
-                                <rect key="frame" x="67.5" y="213.5" width="240" height="240"/>
-                                <color key="backgroundColor" red="1" green="0.60055198539349308" blue="0.56089254019047852" alpha="0.19" colorSpace="calibratedRGB"/>
+                                <rect key="frame" x="67" y="163.5" width="240" height="240"/>
+                                <color key="backgroundColor" red="1" green="0.60055198539349308" blue="0.56089254019047852" alpha="0.050000000000000003" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="240" id="F3H-4b-UNj"/>
                                     <constraint firstAttribute="width" constant="240" id="uVG-qb-Ccw"/>
@@ -31,7 +32,15 @@
                         <constraints>
                             <constraint firstItem="fGg-se-81R" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2Mm-2P-A9W"/>
                             <constraint firstItem="fGg-se-81R" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="DIm-1G-QQr"/>
+                            <constraint firstItem="fGg-se-81R" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="70" id="sPc-7l-dg0"/>
+                            <constraint firstItem="fGg-se-81R" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="0.85" id="x6K-AY-fPo"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="DIm-1G-QQr"/>
+                                <exclude reference="sPc-7l-dg0"/>
+                            </mask>
+                        </variation>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>

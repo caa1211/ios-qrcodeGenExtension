@@ -20,7 +20,6 @@
 		AD636EB11BF24BF80036D3A4 /* qrcoGenExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = AD636EA61BF24BF80036D3A4 /* qrcoGenExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		AD636EB71BF2561D0036D3A4 /* GetURL.js in Resources */ = {isa = PBXBuildFile; fileRef = AD636EB61BF2561D0036D3A4 /* GetURL.js */; settings = {ASSET_TAGS = (); }; };
 		AD636EC01BF25D290036D3A4 /* ActionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD636EBF1BF25D290036D3A4 /* ActionViewController.m */; };
-		AD636EC31BF25D290036D3A4 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD636EC11BF25D290036D3A4 /* MainInterface.storyboard */; };
 		AD636EC71BF25D290036D3A4 /* qrcoCamExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = AD636EBC1BF25D290036D3A4 /* qrcoCamExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
@@ -81,7 +80,6 @@
 		AD636EBC1BF25D290036D3A4 /* qrcoCamExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = qrcoCamExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD636EBE1BF25D290036D3A4 /* ActionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActionViewController.h; sourceTree = "<group>"; };
 		AD636EBF1BF25D290036D3A4 /* ActionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActionViewController.m; sourceTree = "<group>"; };
-		AD636EC21BF25D290036D3A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		AD636EC41BF25D290036D3A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C3C5F6DB60CB4B184A7D7789 /* Pods-qrcoGenExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-qrcoGenExtension.release.xcconfig"; path = "Pods/Target Support Files/Pods-qrcoGenExtension/Pods-qrcoGenExtension.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -196,7 +194,6 @@
 			children = (
 				AD636EBE1BF25D290036D3A4 /* ActionViewController.h */,
 				AD636EBF1BF25D290036D3A4 /* ActionViewController.m */,
-				AD636EC11BF25D290036D3A4 /* MainInterface.storyboard */,
 				AD636EC41BF25D290036D3A4 /* Info.plist */,
 			);
 			path = qrcoCamExtension;
@@ -327,7 +324,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD636EC31BF25D290036D3A4 /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,14 +455,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				AD636EAC1BF24BF80036D3A4 /* Base */,
-			);
-			name = MainInterface.storyboard;
-			sourceTree = "<group>";
-		};
-		AD636EC11BF25D290036D3A4 /* MainInterface.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AD636EC21BF25D290036D3A4 /* Base */,
 			);
 			name = MainInterface.storyboard;
 			sourceTree = "<group>";

@@ -11,7 +11,7 @@
 
 @interface ActionViewController ()
 
-@property(strong,nonatomic) IBOutlet UIImageView *imageView;
+//@property(strong,nonatomic) IBOutlet UIImageView *imageView;
 
 @end
 
@@ -19,33 +19,40 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+//    for (NSExtensionItem *item in self.extensionContext.inputItems) {
+//        for (NSItemProvider *itemProvider in item.attachments) {
+//           
+//            if ([itemProvider hasItemConformingToTypeIdentifier:(NSString *)kUTTypeURL]) {
+//                // It's a plain text!
+//                
+//                [itemProvider loadItemForTypeIdentifier:(NSString *)kUTTypeURL options:nil completionHandler:^(NSURL *item, NSError *error) {
+//                    NSLog(@"Type is URL:%@",kUTTypeURL);
+//                    if (item) {
+//                        [[NSOperationQueue mainQueue] addOperationWithBlock:^{
+//                            NSLog(@"========URL %@==================", item.absoluteString);
+//                            [self openCamApp];
+//                            
+//                        }];
+//                    }
+//                }];
+//            }
+//
+//        
+//        }
+//       
+//    }
 
-    for (NSExtensionItem *item in self.extensionContext.inputItems) {
-        for (NSItemProvider *itemProvider in item.attachments) {
-           
-            if ([itemProvider hasItemConformingToTypeIdentifier:(NSString *)kUTTypeURL]) {
-                // It's a plain text!
-                
-                [itemProvider loadItemForTypeIdentifier:(NSString *)kUTTypeURL options:nil completionHandler:^(NSURL *item, NSError *error) {
-                    NSLog(@"Type is URL:%@",kUTTypeURL);
-                    if (item) {
-                        [[NSOperationQueue mainQueue] addOperationWithBlock:^{
-                            NSLog(@"========URL %@==================", item.absoluteString);
-                            [self openCamApp];
-                            
-                        }];
-                    }
-                }];
-            }
+}
 
-        
-        }
-       
-    }
+-(void) viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    [self openCamApp];
+
+    [self.extensionContext completeRequestReturningItems:nil completionHandler:nil];
 }
 
 - (void) openCamApp {
+  
     NSString *  urlstr = @"qrcg://";
     
     UIResponder* responder = self;
