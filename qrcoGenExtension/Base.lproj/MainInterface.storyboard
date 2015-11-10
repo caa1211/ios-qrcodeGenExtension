@@ -32,24 +32,35 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9ga-4F-77Z">
                                 <rect key="frame" x="0.0" y="64" width="320" height="464"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jrP-we-BFr">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jrP-we-BFr">
                                 <rect key="frame" x="40" y="141" width="240" height="240"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="240" id="BBl-Yj-rvo"/>
                                     <constraint firstAttribute="width" constant="240" id="ckX-Qh-lGO"/>
                                 </constraints>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4PQ-ie-ZCI">
+                                <rect key="frame" x="40" y="413" width="240" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="Jnx-vG-fzY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" red="0.26454123530000001" green="0.32959895639999998" blue="0.61265297200000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="NOA-Dm-cuz" secondAttribute="trailing" id="A05-Pj-hrr"/>
                             <constraint firstItem="9ga-4F-77Z" firstAttribute="top" secondItem="NOA-Dm-cuz" secondAttribute="bottom" id="Fps-3D-QQW"/>
                             <constraint firstItem="NOA-Dm-cuz" firstAttribute="leading" secondItem="zMn-AG-sqS" secondAttribute="leading" id="HxO-8t-aoh"/>
+                            <constraint firstItem="4PQ-ie-ZCI" firstAttribute="centerX" secondItem="zMn-AG-sqS" secondAttribute="centerX" id="Kwr-nV-Dim"/>
                             <constraint firstAttribute="trailing" secondItem="9ga-4F-77Z" secondAttribute="trailing" id="Ozw-Hg-0yh"/>
                             <constraint firstItem="9ga-4F-77Z" firstAttribute="leading" secondItem="zMn-AG-sqS" secondAttribute="leading" id="XH5-ld-ONA"/>
                             <constraint firstItem="n38-gi-rB5" firstAttribute="top" secondItem="9ga-4F-77Z" secondAttribute="bottom" id="eQg-nn-Zy4"/>
                             <constraint firstItem="jrP-we-BFr" firstAttribute="centerX" secondItem="zMn-AG-sqS" secondAttribute="centerX" id="kRm-dc-Fue"/>
-                            <constraint firstItem="jrP-we-BFr" firstAttribute="top" secondItem="NOA-Dm-cuz" secondAttribute="bottom" constant="77" id="lJQ-mh-29A"/>
+                            <constraint firstItem="4PQ-ie-ZCI" firstAttribute="top" secondItem="jrP-we-BFr" secondAttribute="bottom" constant="29" id="koZ-FK-Q8c"/>
+                            <constraint firstItem="jrP-we-BFr" firstAttribute="centerY" secondItem="zMn-AG-sqS" secondAttribute="centerY" id="r3W-ps-7rp"/>
                             <constraint firstItem="NOA-Dm-cuz" firstAttribute="top" secondItem="qkL-Od-lgU" secondAttribute="bottom" id="we0-1t-bgp"/>
                         </constraints>
                     </view>
@@ -58,6 +69,7 @@
                     <connections>
                         <outlet property="imageView" destination="9ga-4F-77Z" id="5y6-5w-9QO"/>
                         <outlet property="qrcodeView" destination="jrP-we-BFr" id="HbI-9Q-f85"/>
+                        <outlet property="titleLabel" destination="4PQ-ie-ZCI" id="95W-vH-gaZ"/>
                         <outlet property="view" destination="zMn-AG-sqS" id="Qma-de-2ek"/>
                     </connections>
                 </viewController>

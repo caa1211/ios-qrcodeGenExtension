@@ -13,6 +13,7 @@
 
 @property(strong,nonatomic) IBOutlet UIImageView *imageView;
 @property (weak, nonatomic) IBOutlet UIImageView *qrcodeView;
+@property (weak, nonatomic) IBOutlet UILabel *titleLabel;
 
 @end
 
@@ -48,26 +49,32 @@
             }
 
             
-//            if ([itemProvider hasItemConformingToTypeIdentifier:(NSString *)kUTTypePropertyList]) {
-//                
-//                [itemProvider loadItemForTypeIdentifier:(NSString *)kUTTypePropertyList options:nil completionHandler:^(NSDictionary *jsDict, NSError *error) {
-//                    
-//                    if (jsDict) {
-//                        [[NSOperationQueue mainQueue] addOperationWithBlock:^{
-//                            NSDictionary *jsPreprocessingResults = jsDict[NSExtensionJavaScriptPreprocessingResultsKey];
-//                            NSString *selectedText = jsPreprocessingResults[@"selection"];
-//                            NSString *pageTitle = jsPreprocessingResults[@"title"];
-//                            if ([selectedText length] > 0) {
-//                                //self.textView.text = selectedText;
-//                            } else if ([pageTitle length] > 0) {
-//                                //self.textView.text = pageTitle;
-//                            }
-//                        }];
-//                    }
-//
-//                    
-//                }];
-//            }
+            if ([itemProvider hasItemConformingToTypeIdentifier:(NSString *)kUTTypePropertyList]) {
+                
+                [itemProvider loadItemForTypeIdentifier:(NSString *)kUTTypePropertyList options:nil completionHandler:^(NSDictionary *jsDict, NSError *error) {
+                    
+                    if (jsDict) {
+                        [[NSOperationQueue mainQueue] addOperationWithBlock:^{
+                            
+                            NSDictionary *jsPreprocessingResults = jsDict[NSExtensionJavaScriptPreprocessingResultsKey];
+                            //NSString *selectedText = jsPreprocessingResults[@"selection"];
+                            NSString *pageTitle = jsPreprocessingResults[@"title"];
+                            NSString *pageUrl = jsPreprocessingResults[@"URL"];
+                            if([pageTitle length] > 0) {
+                                self.titleLabel.text = pageTitle;
+                            }else {
+                                self.titleLabel.text = pageUrl;
+                            }
+                            
+                            if([pageUrl length] > 0) {
+                                self.qrcodeView.image = [QRCodeGenerator qrImageForString:pageUrl imageSize:self.qrcodeView.bounds.size.width];
+                            }
+                        }];
+                    }
+
+                    
+                }];
+            }
             
             
 //            if ([itemProvider hasItemConformingToTypeIdentifier:(NSString *)kUTTypeImage]) {
