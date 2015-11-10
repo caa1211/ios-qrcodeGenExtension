@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C58107996090A2E72E6BAFF2"
-               BuildableName = "libPods-qrcoGenExtension.a"
-               BlueprintName = "Pods-qrcoGenExtension"
+               BlueprintIdentifier = "4236C9EE5CBAAC7D67C9A505"
+               BuildableName = "libPods-qrcg.a"
+               BlueprintName = "Pods-qrcg"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

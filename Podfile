@@ -2,7 +2,7 @@
 # platform :ios, '6.0'
 
 target 'qrcg' do
-
+pod "TTQRCodeScanner"
 end
 
 target 'qrcoGenExtension' do

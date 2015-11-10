@@ -4,19 +4,30 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Pods-qrcg.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-qrcoGenExtension.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>3</integer>
+		</dict>
+		<key>TTQRCodeScanner-TTQRCodeScanner.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>TTQRCodeScanner.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>iOS-QR-Code-Encoder.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>2</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
@@ -26,7 +37,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>4586FA5835299253FF4776C39E2F8F27</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7A20A72FB3EB216906B1BFFAEFD5A18A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>8D2E756A603C7B0F857B6F113D702C3D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DE7F00507002E7391A270418DA2C6696</key>
 		<dict>
 			<key>primary</key>
 			<true/>

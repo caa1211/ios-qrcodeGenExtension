@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C58107996090A2E72E6BAFF2"
-               BuildableName = "libPods-qrcoGenExtension.a"
-               BlueprintName = "Pods-qrcoGenExtension"
+               BlueprintIdentifier = "DE3C544079418A3578FB0E1E"
+               BuildableName = "libTTQRCodeScanner.a"
+               BlueprintName = "TTQRCodeScanner"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

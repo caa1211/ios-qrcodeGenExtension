@@ -15,60 +15,99 @@
 		37AAD79DC2910A7BE6C680847597A028 /* qrencode.c in Sources */ = {isa = PBXBuildFile; fileRef = 995F38C3BE8062CB7847BE21E21C868B /* qrencode.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		41098B3B48B7C7320BBECD6499EC2B14 /* iOS-QR-Code-Encoder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A27D71515239305A127E1641AB83E2F6 /* iOS-QR-Code-Encoder-dummy.m */; };
 		41AE4794DC89F06ED5A1809F672F06DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA5FE12F2A98E096C12796DEB3BA412F /* Foundation.framework */; };
+		4C36894F86BECDC4C9CE7E4332EBBBDD /* TTPlayAudio.h in Headers */ = {isa = PBXBuildFile; fileRef = CFDB84DDB3C8BE332C818579B8F550FF /* TTPlayAudio.h */; };
 		51312AF467496A837237C866EB4F8E92 /* Pods-qrcoGenExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F28DBB2CFEB1330BE7093F112522E3 /* Pods-qrcoGenExtension-dummy.m */; };
 		5CC5EC300A6F288111040FD874711129 /* rscode.c in Sources */ = {isa = PBXBuildFile; fileRef = AC756BB08047F81E8F07B5455948F188 /* rscode.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		6142DF5FA244D6B9B407E0DDF92E9EB0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA5FE12F2A98E096C12796DEB3BA412F /* Foundation.framework */; };
+		62938C6EACBCBEA130A9AD949FF061EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA5FE12F2A98E096C12796DEB3BA412F /* Foundation.framework */; };
 		65111D5F05EA35ED2D98CE67B23F55EB /* split.c in Sources */ = {isa = PBXBuildFile; fileRef = 44BFBA4383739AA110F00514FFBB6701 /* split.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		6EA5F8EF16DCD4ED584896D509C6C383 /* QRCodeGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C6985B30A8B87FD7FE8EA53C1D51F6 /* QRCodeGenerator.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7099DF35FE5F7C44980C0825C9100EF7 /* TTQRCodeScanner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D720AC4967E087042E09F341017F32C /* TTQRCodeScanner-dummy.m */; };
 		7840AE87802FE1EF9BFB53E441058B34 /* QRCodeGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C4C340F07C89A92569B115D984FE617 /* QRCodeGenerator.h */; };
+		7A7AFCD2EEAE7B53EA5B90AACF913650 /* Pods-qrcg-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 58FF113FD7DC6611E7AD543915B3A75B /* Pods-qrcg-dummy.m */; };
 		B1C46AF3CDAFD5A13E6F749A22AED704 /* qrspec.h in Headers */ = {isa = PBXBuildFile; fileRef = 73C1BFABB08E027E30DA5D86769632F9 /* qrspec.h */; };
 		BFFADE0E5473163FBCCB948564AD9E2A /* bitstream.c in Sources */ = {isa = PBXBuildFile; fileRef = CE1DFE24DCC162774A5ECA3A2002A8E4 /* bitstream.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		C4A0FD20049245D7C34A9330409418B0 /* bitstream.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DEC63AA706324E63F74E08518695AD3 /* bitstream.h */; };
 		C4D3EAA79EA54133140B22C342CF1349 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA5FE12F2A98E096C12796DEB3BA412F /* Foundation.framework */; };
 		CF2E35827579DBD38C1108051C6392BE /* rscode.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C26684625CFE6577A1FA1B74F739D34 /* rscode.h */; };
+		D7446F19291E9CE66B46F80D0797A051 /* TTQRCodeScanner.h in Headers */ = {isa = PBXBuildFile; fileRef = 547300DDE56C3A5BF8CD76356DA53B59 /* TTQRCodeScanner.h */; };
 		DB68241B5E28404A6EC17D61518D8E95 /* qrencode.h in Headers */ = {isa = PBXBuildFile; fileRef = 65E4D8AEAC12DF87CB6F0A944AF33974 /* qrencode.h */; };
+		EC5B9F66BBBAC116C27C50AFA43F892E /* TTPlayAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EFE6AD3EA049C93B9574CAF4E530D13 /* TTPlayAudio.m */; };
 		ECCDC90BC573FD938B37328D1CC11220 /* mask.c in Sources */ = {isa = PBXBuildFile; fileRef = 14F171DBBBE48AD61B8D61B9D80422AA /* mask.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FE16D7BB4B153914DDDC9C405AF0D090 /* TTQRCodeScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = D688DE5A75D597FF201DBD74633C9FBC /* TTQRCodeScanner.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		7340844A99DABD62006B5F1D12CC228C /* PBXContainerItemProxy */ = {
+		1399C54E87E66013E16E745C4C186954 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 45596EEF26239801B4852A0BF25FA724;
 			remoteInfo = "iOS-QR-Code-Encoder";
 		};
+		16CC88F05AA0CCACDA4A205795D800B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4586FA5835299253FF4776C39E2F8F27;
+			remoteInfo = "TTQRCodeScanner-TTQRCodeScanner";
+		};
+		7488FF8F6C39FC0E0F2B7CC63F2976B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A20A72FB3EB216906B1BFFAEFD5A18A;
+			remoteInfo = TTQRCodeScanner;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D720AC4967E087042E09F341017F32C /* TTQRCodeScanner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TTQRCodeScanner-dummy.m"; sourceTree = "<group>"; };
 		107AF28004821E1D977C0BB60FD1C95E /* qrspec.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = qrspec.c; path = libqrencode/qrspec.c; sourceTree = "<group>"; };
-		11DC32B74F677C845CDD4433D61DB22D /* Pods-qrcoGenExtension-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-qrcoGenExtension-resources.sh"; sourceTree = "<group>"; };
+		13AE1E4EE8930896CCD94ACAA1E9416D /* libTTQRCodeScanner.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTTQRCodeScanner.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		14F171DBBBE48AD61B8D61B9D80422AA /* mask.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = mask.c; path = libqrencode/mask.c; sourceTree = "<group>"; };
+		16A19B1CEDE91D225FCCF4EBB0C7722B /* TTQRCodeScanner-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TTQRCodeScanner-prefix.pch"; sourceTree = "<group>"; };
+		174136313CEDE3AC0DD17C3BD3A1E8D9 /* libPods-qrcg.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-qrcg.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DEC63AA706324E63F74E08518695AD3 /* bitstream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bitstream.h; path = libqrencode/bitstream.h; sourceTree = "<group>"; };
-		3519E4379F829BD1C58B2FCF02BB4BBD /* Pods-qrcoGenExtension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-qrcoGenExtension-acknowledgements.plist"; sourceTree = "<group>"; };
+		2E82E0A4907D0DA1CC6B6460C31B5F1B /* Pods-qrcg-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-qrcg-acknowledgements.markdown"; sourceTree = "<group>"; };
+		39537D159B8D7A26C0E58E84AFB8FBDD /* Pods-qrcoGenExtension-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-qrcoGenExtension-resources.sh"; sourceTree = "<group>"; };
 		3C26684625CFE6577A1FA1B74F739D34 /* rscode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rscode.h; path = libqrencode/rscode.h; sourceTree = "<group>"; };
+		420EF79A5F45799CECF9956B1B87D37D /* Pods-qrcg-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-qrcg-acknowledgements.plist"; sourceTree = "<group>"; };
+		421C062DB9916735105E02B5D608D2B7 /* TTQRCodeScanner.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TTQRCodeScanner.xcconfig; sourceTree = "<group>"; };
+		4367463D8A7796A8762831474F5CFA5C /* TTQRCodeScanner.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTQRCodeScanner.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		44BFBA4383739AA110F00514FFBB6701 /* split.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = split.c; path = libqrencode/split.c; sourceTree = "<group>"; };
-		48D761196408EC1033E27E68F23A5874 /* iOS-QR-Code-Encoder-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOS-QR-Code-Encoder-prefix.pch"; sourceTree = "<group>"; };
 		49C6985B30A8B87FD7FE8EA53C1D51F6 /* QRCodeGenerator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QRCodeGenerator.m; path = Classes/QRCodeGenerator.m; sourceTree = "<group>"; };
+		547300DDE56C3A5BF8CD76356DA53B59 /* TTQRCodeScanner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTQRCodeScanner.h; path = Pod/Classes/TTQRCodeScanner.h; sourceTree = "<group>"; };
+		58FF113FD7DC6611E7AD543915B3A75B /* Pods-qrcg-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-qrcg-dummy.m"; sourceTree = "<group>"; };
 		5E29D0CEB398C18D4C9A7E7EAC43D188 /* libPods-qrcoGenExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-qrcoGenExtension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6316D1F352BBB0F6A7DD340A10DE93E0 /* libiOS-QR-Code-Encoder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libiOS-QR-Code-Encoder.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6478EA6A2BE4726FCFB9B54CEC8E2354 /* mask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mask.h; path = libqrencode/mask.h; sourceTree = "<group>"; };
 		65E4D8AEAC12DF87CB6F0A944AF33974 /* qrencode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = qrencode.h; path = libqrencode/qrencode.h; sourceTree = "<group>"; };
 		73C1BFABB08E027E30DA5D86769632F9 /* qrspec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = qrspec.h; path = libqrencode/qrspec.h; sourceTree = "<group>"; };
 		85DFC3833F699D98C317F218AB4467D2 /* iOS-QR-Code-Encoder-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "iOS-QR-Code-Encoder-Private.xcconfig"; sourceTree = "<group>"; };
+		8818582B34EB7E56B2CF29FCB9B86C1F /* iOS-QR-Code-Encoder.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "iOS-QR-Code-Encoder.xcconfig"; sourceTree = "<group>"; };
 		8AEE820ABCC5565D9AFFE8CC6C0E65F6 /* qrinput.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = qrinput.c; path = libqrencode/qrinput.c; sourceTree = "<group>"; };
 		8C4C340F07C89A92569B115D984FE617 /* QRCodeGenerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QRCodeGenerator.h; path = Classes/QRCodeGenerator.h; sourceTree = "<group>"; };
 		9421D1EE9B0082BD3DA9AF54F2FABF79 /* qrinput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = qrinput.h; path = libqrencode/qrinput.h; sourceTree = "<group>"; };
 		995F38C3BE8062CB7847BE21E21C868B /* qrencode.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = qrencode.c; path = libqrencode/qrencode.c; sourceTree = "<group>"; };
+		9EFE6AD3EA049C93B9574CAF4E530D13 /* TTPlayAudio.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTPlayAudio.m; path = Pod/Classes/TTPlayAudio.m; sourceTree = "<group>"; };
 		A27D71515239305A127E1641AB83E2F6 /* iOS-QR-Code-Encoder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "iOS-QR-Code-Encoder-dummy.m"; sourceTree = "<group>"; };
 		AC756BB08047F81E8F07B5455948F188 /* rscode.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = rscode.c; path = libqrencode/rscode.c; sourceTree = "<group>"; };
-		ACBC8EC3F0086C7504116DED84179ED2 /* iOS-QR-Code-Encoder.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "iOS-QR-Code-Encoder.xcconfig"; sourceTree = "<group>"; };
 		AD9EBAF34F34FE0A8168D96F7CBEE3CC /* Pods-qrcoGenExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-qrcoGenExtension.debug.xcconfig"; sourceTree = "<group>"; };
 		B2F28DBB2CFEB1330BE7093F112522E3 /* Pods-qrcoGenExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-qrcoGenExtension-dummy.m"; sourceTree = "<group>"; };
+		B76257F5C8D946A32C2DE5A0DA44F736 /* iOS-QR-Code-Encoder-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOS-QR-Code-Encoder-prefix.pch"; sourceTree = "<group>"; };
 		BA5FE12F2A98E096C12796DEB3BA412F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C7E58899AC67097A441231E1B8884B00 /* Pods-qrcoGenExtension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-qrcoGenExtension-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BC270A7CDB71569D222960D53293E336 /* Pods-qrcoGenExtension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-qrcoGenExtension-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C2F2ED9C76F4C82ED10B50555CC56ADB /* Pods-qrcg.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-qrcg.debug.xcconfig"; sourceTree = "<group>"; };
 		CE1DFE24DCC162774A5ECA3A2002A8E4 /* bitstream.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = bitstream.c; path = libqrencode/bitstream.c; sourceTree = "<group>"; };
+		CEEE3FF0F54D7496C3C6DE0AA3DFF664 /* Pods-qrcg.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-qrcg.release.xcconfig"; sourceTree = "<group>"; };
+		CFDB84DDB3C8BE332C818579B8F550FF /* TTPlayAudio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTPlayAudio.h; path = Pod/Classes/TTPlayAudio.h; sourceTree = "<group>"; };
+		D688DE5A75D597FF201DBD74633C9FBC /* TTQRCodeScanner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTQRCodeScanner.m; path = Pod/Classes/TTQRCodeScanner.m; sourceTree = "<group>"; };
+		D9B27D8D85E4CB3EDC87B734DB8B7CAD /* Pods-qrcoGenExtension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-qrcoGenExtension-acknowledgements.plist"; sourceTree = "<group>"; };
 		DC4B460038E670C598B4E4A64459046B /* Pods-qrcoGenExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-qrcoGenExtension.release.xcconfig"; sourceTree = "<group>"; };
+		E008214E66CD4894E621A614711DA69C /* Pods-qrcg-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-qrcg-resources.sh"; sourceTree = "<group>"; };
+		F36AF31DD7F6DA1DABF891F69AC40F58 /* TTQRCodeScanner-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "TTQRCodeScanner-Private.xcconfig"; sourceTree = "<group>"; };
 		F9C22061ADB3B91E142AB24E116821F0 /* split.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = split.h; path = libqrencode/split.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -78,6 +117,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4D3EAA79EA54133140B22C342CF1349 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		357F75EE3F4D6941F19C8118ADE66080 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5728D5CA6411231AACCD8830D449C5F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62938C6EACBCBEA130A9AD949FF061EB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		761F44208D51377709E27FB3A46EE92A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6142DF5FA244D6B9B407E0DDF92E9EB0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,60 +154,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		118DF35F0856EF7DF3B05B2B43142317 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				58B53D5F479557F4A4A1765727CAF463 /* Pods-qrcoGenExtension */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		18FF11E0FAA2D885BED79A7FE7B3E633 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				ACBC8EC3F0086C7504116DED84179ED2 /* iOS-QR-Code-Encoder.xcconfig */,
-				85DFC3833F699D98C317F218AB4467D2 /* iOS-QR-Code-Encoder-Private.xcconfig */,
-				A27D71515239305A127E1641AB83E2F6 /* iOS-QR-Code-Encoder-dummy.m */,
-				48D761196408EC1033E27E68F23A5874 /* iOS-QR-Code-Encoder-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/iOS-QR-Code-Encoder";
-			sourceTree = "<group>";
-		};
-		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				BA5FE12F2A98E096C12796DEB3BA412F /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		58B53D5F479557F4A4A1765727CAF463 /* Pods-qrcoGenExtension */ = {
-			isa = PBXGroup;
-			children = (
-				C7E58899AC67097A441231E1B8884B00 /* Pods-qrcoGenExtension-acknowledgements.markdown */,
-				3519E4379F829BD1C58B2FCF02BB4BBD /* Pods-qrcoGenExtension-acknowledgements.plist */,
-				B2F28DBB2CFEB1330BE7093F112522E3 /* Pods-qrcoGenExtension-dummy.m */,
-				11DC32B74F677C845CDD4433D61DB22D /* Pods-qrcoGenExtension-resources.sh */,
-				AD9EBAF34F34FE0A8168D96F7CBEE3CC /* Pods-qrcoGenExtension.debug.xcconfig */,
-				DC4B460038E670C598B4E4A64459046B /* Pods-qrcoGenExtension.release.xcconfig */,
-			);
-			name = "Pods-qrcoGenExtension";
-			path = "Target Support Files/Pods-qrcoGenExtension";
-			sourceTree = "<group>";
-		};
-		7DB346D0F39D3F0E887471402A8071AB = {
-			isa = PBXGroup;
-			children = (
-				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				905C6728E89BE7E8C972E7D087CB9807 /* Pods */,
-				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
-				118DF35F0856EF7DF3B05B2B43142317 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		8ECC3D61ACF99ADE0A76CB0CDDE79E8B /* iOS-QR-Code-Encoder */ = {
+		227906059A5BCB03F430E07D0903E33A /* iOS-QR-Code-Encoder */ = {
 			isa = PBXGroup;
 			children = (
 				8C4C340F07C89A92569B115D984FE617 /* QRCodeGenerator.h */,
@@ -164,17 +173,89 @@
 				3C26684625CFE6577A1FA1B74F739D34 /* rscode.h */,
 				44BFBA4383739AA110F00514FFBB6701 /* split.c */,
 				F9C22061ADB3B91E142AB24E116821F0 /* split.h */,
-				18FF11E0FAA2D885BED79A7FE7B3E633 /* Support Files */,
+				FA2711093C8A99C32DAB5FB0C3ACDB4A /* Support Files */,
 			);
 			path = "iOS-QR-Code-Encoder";
 			sourceTree = "<group>";
 		};
-		905C6728E89BE7E8C972E7D087CB9807 /* Pods */ = {
+		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				8ECC3D61ACF99ADE0A76CB0CDDE79E8B /* iOS-QR-Code-Encoder */,
+				BA5FE12F2A98E096C12796DEB3BA412F /* Foundation.framework */,
 			);
-			name = Pods;
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		666F2E34593A877A674EF796CCAEFD0B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B36B6545B4A36B273C1ABFE31268D245 /* Pods-qrcg */,
+				6F979DBC149BE499CB8076DA82D50579 /* Pods-qrcoGenExtension */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6F979DBC149BE499CB8076DA82D50579 /* Pods-qrcoGenExtension */ = {
+			isa = PBXGroup;
+			children = (
+				BC270A7CDB71569D222960D53293E336 /* Pods-qrcoGenExtension-acknowledgements.markdown */,
+				D9B27D8D85E4CB3EDC87B734DB8B7CAD /* Pods-qrcoGenExtension-acknowledgements.plist */,
+				B2F28DBB2CFEB1330BE7093F112522E3 /* Pods-qrcoGenExtension-dummy.m */,
+				39537D159B8D7A26C0E58E84AFB8FBDD /* Pods-qrcoGenExtension-resources.sh */,
+				AD9EBAF34F34FE0A8168D96F7CBEE3CC /* Pods-qrcoGenExtension.debug.xcconfig */,
+				DC4B460038E670C598B4E4A64459046B /* Pods-qrcoGenExtension.release.xcconfig */,
+			);
+			name = "Pods-qrcoGenExtension";
+			path = "Target Support Files/Pods-qrcoGenExtension";
+			sourceTree = "<group>";
+		};
+		7C2558F56101D1AA7FB597E39971CD56 /* TTQRCodeScanner */ = {
+			isa = PBXGroup;
+			children = (
+				CFDB84DDB3C8BE332C818579B8F550FF /* TTPlayAudio.h */,
+				9EFE6AD3EA049C93B9574CAF4E530D13 /* TTPlayAudio.m */,
+				547300DDE56C3A5BF8CD76356DA53B59 /* TTQRCodeScanner.h */,
+				D688DE5A75D597FF201DBD74633C9FBC /* TTQRCodeScanner.m */,
+				7DB19581842D8CCC3448D9016F47CEF8 /* Support Files */,
+			);
+			path = TTQRCodeScanner;
+			sourceTree = "<group>";
+		};
+		7DB19581842D8CCC3448D9016F47CEF8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				421C062DB9916735105E02B5D608D2B7 /* TTQRCodeScanner.xcconfig */,
+				F36AF31DD7F6DA1DABF891F69AC40F58 /* TTQRCodeScanner-Private.xcconfig */,
+				0D720AC4967E087042E09F341017F32C /* TTQRCodeScanner-dummy.m */,
+				16A19B1CEDE91D225FCCF4EBB0C7722B /* TTQRCodeScanner-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TTQRCodeScanner";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				FA49A80BCE9647821F338AA0F5172E95 /* Pods */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				666F2E34593A877A674EF796CCAEFD0B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B36B6545B4A36B273C1ABFE31268D245 /* Pods-qrcg */ = {
+			isa = PBXGroup;
+			children = (
+				2E82E0A4907D0DA1CC6B6460C31B5F1B /* Pods-qrcg-acknowledgements.markdown */,
+				420EF79A5F45799CECF9956B1B87D37D /* Pods-qrcg-acknowledgements.plist */,
+				58FF113FD7DC6611E7AD543915B3A75B /* Pods-qrcg-dummy.m */,
+				E008214E66CD4894E621A614711DA69C /* Pods-qrcg-resources.sh */,
+				C2F2ED9C76F4C82ED10B50555CC56ADB /* Pods-qrcg.debug.xcconfig */,
+				CEEE3FF0F54D7496C3C6DE0AA3DFF664 /* Pods-qrcg.release.xcconfig */,
+			);
+			name = "Pods-qrcg";
+			path = "Target Support Files/Pods-qrcg";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -188,10 +269,34 @@
 		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
 			isa = PBXGroup;
 			children = (
+				4367463D8A7796A8762831474F5CFA5C /* TTQRCodeScanner.bundle */,
+				174136313CEDE3AC0DD17C3BD3A1E8D9 /* libPods-qrcg.a */,
 				5E29D0CEB398C18D4C9A7E7EAC43D188 /* libPods-qrcoGenExtension.a */,
+				13AE1E4EE8930896CCD94ACAA1E9416D /* libTTQRCodeScanner.a */,
 				6316D1F352BBB0F6A7DD340A10DE93E0 /* libiOS-QR-Code-Encoder.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		FA2711093C8A99C32DAB5FB0C3ACDB4A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8818582B34EB7E56B2CF29FCB9B86C1F /* iOS-QR-Code-Encoder.xcconfig */,
+				85DFC3833F699D98C317F218AB4467D2 /* iOS-QR-Code-Encoder-Private.xcconfig */,
+				A27D71515239305A127E1641AB83E2F6 /* iOS-QR-Code-Encoder-dummy.m */,
+				B76257F5C8D946A32C2DE5A0DA44F736 /* iOS-QR-Code-Encoder-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/iOS-QR-Code-Encoder";
+			sourceTree = "<group>";
+		};
+		FA49A80BCE9647821F338AA0F5172E95 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7C2558F56101D1AA7FB597E39971CD56 /* TTQRCodeScanner */,
+				227906059A5BCB03F430E07D0903E33A /* iOS-QR-Code-Encoder */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,6 +314,15 @@
 				B1C46AF3CDAFD5A13E6F749A22AED704 /* qrspec.h in Headers */,
 				CF2E35827579DBD38C1108051C6392BE /* rscode.h in Headers */,
 				06CC5E86B2BBA73886E0BAC065B6E991 /* split.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF58289AA733170590053C6ADBF25A0C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C36894F86BECDC4C9CE7E4332EBBBDD /* TTPlayAudio.h in Headers */,
+				D7446F19291E9CE66B46F80D0797A051 /* TTQRCodeScanner.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,6 +346,41 @@
 			productReference = 6316D1F352BBB0F6A7DD340A10DE93E0 /* libiOS-QR-Code-Encoder.a */;
 			productType = "com.apple.product-type.library.static";
 		};
+		4586FA5835299253FF4776C39E2F8F27 /* TTQRCodeScanner-TTQRCodeScanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59ECBCFAB0C2C1D205F53EDDF2B74B7F /* Build configuration list for PBXNativeTarget "TTQRCodeScanner-TTQRCodeScanner" */;
+			buildPhases = (
+				402F025654A7B4A11A3022051CBA61B1 /* Sources */,
+				357F75EE3F4D6941F19C8118ADE66080 /* Frameworks */,
+				63D06FEC67203208655CAF03F6EEEBC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TTQRCodeScanner-TTQRCodeScanner";
+			productName = "TTQRCodeScanner-TTQRCodeScanner";
+			productReference = 4367463D8A7796A8762831474F5CFA5C /* TTQRCodeScanner.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		7A20A72FB3EB216906B1BFFAEFD5A18A /* TTQRCodeScanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C3B149ADD4AF822A54B16A470A64EF1 /* Build configuration list for PBXNativeTarget "TTQRCodeScanner" */;
+			buildPhases = (
+				AD5431EDBA5E26783B41261F42E3300A /* Sources */,
+				761F44208D51377709E27FB3A46EE92A /* Frameworks */,
+				CF58289AA733170590053C6ADBF25A0C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF261BEB5D10B39479DAF966B3A8C415 /* PBXTargetDependency */,
+			);
+			name = TTQRCodeScanner;
+			productName = TTQRCodeScanner;
+			productReference = 13AE1E4EE8930896CCD94ACAA1E9416D /* libTTQRCodeScanner.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		8D2E756A603C7B0F857B6F113D702C3D /* Pods-qrcoGenExtension */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = ED966D97BBFE25988FDDE637B74184C2 /* Build configuration list for PBXNativeTarget "Pods-qrcoGenExtension" */;
@@ -242,11 +391,28 @@
 			buildRules = (
 			);
 			dependencies = (
-				184EF57D45B64079DC44C3F1FB8E5F6F /* PBXTargetDependency */,
+				FA484A4920A8C662E10F54F005ED9626 /* PBXTargetDependency */,
 			);
 			name = "Pods-qrcoGenExtension";
 			productName = "Pods-qrcoGenExtension";
 			productReference = 5E29D0CEB398C18D4C9A7E7EAC43D188 /* libPods-qrcoGenExtension.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DE7F00507002E7391A270418DA2C6696 /* Pods-qrcg */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1B50B3457F5B534F9F5C5692810E07D /* Build configuration list for PBXNativeTarget "Pods-qrcg" */;
+			buildPhases = (
+				2133B0E71E150C95B5509A127CA4781E /* Sources */,
+				5728D5CA6411231AACCD8830D449C5F4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				593B3253D67EFB470968F48FD1609642 /* PBXTargetDependency */,
+			);
+			name = "Pods-qrcg";
+			productName = "Pods-qrcg";
+			productReference = 174136313CEDE3AC0DD17C3BD3A1E8D9 /* libPods-qrcg.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -270,11 +436,24 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				DE7F00507002E7391A270418DA2C6696 /* Pods-qrcg */,
 				8D2E756A603C7B0F857B6F113D702C3D /* Pods-qrcoGenExtension */,
+				7A20A72FB3EB216906B1BFFAEFD5A18A /* TTQRCodeScanner */,
+				4586FA5835299253FF4776C39E2F8F27 /* TTQRCodeScanner-TTQRCodeScanner */,
 				45596EEF26239801B4852A0BF25FA724 /* iOS-QR-Code-Encoder */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63D06FEC67203208655CAF03F6EEEBC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		09D0645FF9FF3475ECB3586C97F8EF0A /* Sources */ = {
@@ -293,6 +472,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2133B0E71E150C95B5509A127CA4781E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A7AFCD2EEAE7B53EA5B90AACF913650 /* Pods-qrcg-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		402F025654A7B4A11A3022051CBA61B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6DEB5DB122528F3EE75FEB926C813EED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -301,18 +495,56 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AD5431EDBA5E26783B41261F42E3300A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC5B9F66BBBAC116C27C50AFA43F892E /* TTPlayAudio.m in Sources */,
+				7099DF35FE5F7C44980C0825C9100EF7 /* TTQRCodeScanner-dummy.m in Sources */,
+				FE16D7BB4B153914DDDC9C405AF0D090 /* TTQRCodeScanner.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		184EF57D45B64079DC44C3F1FB8E5F6F /* PBXTargetDependency */ = {
+		593B3253D67EFB470968F48FD1609642 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TTQRCodeScanner;
+			target = 7A20A72FB3EB216906B1BFFAEFD5A18A /* TTQRCodeScanner */;
+			targetProxy = 7488FF8F6C39FC0E0F2B7CC63F2976B7 /* PBXContainerItemProxy */;
+		};
+		AF261BEB5D10B39479DAF966B3A8C415 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "TTQRCodeScanner-TTQRCodeScanner";
+			target = 4586FA5835299253FF4776C39E2F8F27 /* TTQRCodeScanner-TTQRCodeScanner */;
+			targetProxy = 16CC88F05AA0CCACDA4A205795D800B2 /* PBXContainerItemProxy */;
+		};
+		FA484A4920A8C662E10F54F005ED9626 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "iOS-QR-Code-Encoder";
 			target = 45596EEF26239801B4852A0BF25FA724 /* iOS-QR-Code-Encoder */;
-			targetProxy = 7340844A99DABD62006B5F1D12CC228C /* PBXContainerItemProxy */;
+			targetProxy = 1399C54E87E66013E16E745C4C186954 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		40F46A7F76C15B31F7CC37131065808E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F36AF31DD7F6DA1DABF891F69AC40F58 /* TTQRCodeScanner-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TTQRCodeScanner/TTQRCodeScanner-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
 		6DE2241C217E51B61857E584DC2CA70D /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 85DFC3833F699D98C317F218AB4467D2 /* iOS-QR-Code-Encoder-Private.xcconfig */;
@@ -324,6 +556,22 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		7C2F4B6142CEC633FF305ECF7B38EF8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEEE3FF0F54D7496C3C6DE0AA3DFF664 /* Pods-qrcg.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -403,6 +651,62 @@
 			};
 			name = Debug;
 		};
+		C8BCB5B2CAA8FAD9DB49BC64395296D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F36AF31DD7F6DA1DABF891F69AC40F58 /* TTQRCodeScanner-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = TTQRCodeScanner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		C9591CABF0FE7DEE0CAAD0DF90AD5CCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2F2ED9C76F4C82ED10B50555CC56ADB /* Pods-qrcg.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CE5269011DE9C4B19555C2B0F470B593 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F36AF31DD7F6DA1DABF891F69AC40F58 /* TTQRCodeScanner-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TTQRCodeScanner/TTQRCodeScanner-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D9F52920876D3A3C10C1AAA7B7C27CDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F36AF31DD7F6DA1DABF891F69AC40F58 /* TTQRCodeScanner-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = TTQRCodeScanner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 		E5143734529344B85FA4950513ECC5AD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 85DFC3833F699D98C317F218AB4467D2 /* iOS-QR-Code-Encoder-Private.xcconfig */;
@@ -466,6 +770,24 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		3C3B149ADD4AF822A54B16A470A64EF1 /* Build configuration list for PBXNativeTarget "TTQRCodeScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40F46A7F76C15B31F7CC37131065808E /* Debug */,
+				CE5269011DE9C4B19555C2B0F470B593 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59ECBCFAB0C2C1D205F53EDDF2B74B7F /* Build configuration list for PBXNativeTarget "TTQRCodeScanner-TTQRCodeScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8BCB5B2CAA8FAD9DB49BC64395296D7 /* Debug */,
+				D9F52920876D3A3C10C1AAA7B7C27CDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		DF8EB65916FB044DE9C7AB9AB8ABA227 /* Build configuration list for PBXNativeTarget "iOS-QR-Code-Encoder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -480,6 +802,15 @@
 			buildConfigurations = (
 				C0D364CE7C18F7C3984CA1EFE10C5FBD /* Debug */,
 				BCD9AA857FE60F1DE6768ED41817F111 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1B50B3457F5B534F9F5C5692810E07D /* Build configuration list for PBXNativeTarget "Pods-qrcg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9591CABF0FE7DEE0CAAD0DF90AD5CCA /* Debug */,
+				7C2F4B6142CEC633FF305ECF7B38EF8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

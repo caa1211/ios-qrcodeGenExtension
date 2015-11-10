@@ -1,0 +1,1 @@
+../../../TTQRCodeScanner/Pod/Classes/TTQRCodeScanner.h
