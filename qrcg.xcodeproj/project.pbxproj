@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD636E8D1BF24BD00036D3A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD636E8C1BF24BD00036D3A4 /* main.m */; };
+		AD636E901BF24BD00036D3A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD636E8F1BF24BD00036D3A4 /* AppDelegate.m */; };
+		AD636E931BF24BD00036D3A4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD636E921BF24BD00036D3A4 /* ViewController.m */; };
+		AD636E961BF24BD00036D3A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD636E941BF24BD00036D3A4 /* Main.storyboard */; };
+		AD636E981BF24BD00036D3A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD636E971BF24BD00036D3A4 /* Assets.xcassets */; };
+		AD636E9B1BF24BD00036D3A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD636E991BF24BD00036D3A4 /* LaunchScreen.storyboard */; };
+		AD636EAA1BF24BF80036D3A4 /* ActionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD636EA91BF24BF80036D3A4 /* ActionViewController.m */; };
+		AD636EAD1BF24BF80036D3A4 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD636EAB1BF24BF80036D3A4 /* MainInterface.storyboard */; };
+		AD636EB11BF24BF80036D3A4 /* qrcoGenExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = AD636EA61BF24BF80036D3A4 /* qrcoGenExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD636EAF1BF24BF80036D3A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD636E801BF24BD00036D3A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD636EA51BF24BF80036D3A4;
+			remoteInfo = qrcoGenExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AD636EB51BF24BF90036D3A4 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				AD636EB11BF24BF80036D3A4 /* qrcoGenExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AD636E881BF24BD00036D3A4 /* qrcg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = qrcg.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD636E8C1BF24BD00036D3A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AD636E8E1BF24BD00036D3A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AD636E8F1BF24BD00036D3A4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AD636E911BF24BD00036D3A4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AD636E921BF24BD00036D3A4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AD636E951BF24BD00036D3A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD636E971BF24BD00036D3A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD636E9A1BF24BD00036D3A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD636E9C1BF24BD00036D3A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD636EA61BF24BF80036D3A4 /* qrcoGenExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = qrcoGenExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD636EA81BF24BF80036D3A4 /* ActionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActionViewController.h; sourceTree = "<group>"; };
+		AD636EA91BF24BF80036D3A4 /* ActionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActionViewController.m; sourceTree = "<group>"; };
+		AD636EAC1BF24BF80036D3A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		AD636EAE1BF24BF80036D3A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD636E851BF24BD00036D3A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD636EA31BF24BF80036D3A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD636E7F1BF24BD00036D3A4 = {
+			isa = PBXGroup;
+			children = (
+				AD636E8A1BF24BD00036D3A4 /* qrcg */,
+				AD636EA71BF24BF80036D3A4 /* qrcoGenExtension */,
+				AD636E891BF24BD00036D3A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD636E891BF24BD00036D3A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD636E881BF24BD00036D3A4 /* qrcg.app */,
+				AD636EA61BF24BF80036D3A4 /* qrcoGenExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD636E8A1BF24BD00036D3A4 /* qrcg */ = {
+			isa = PBXGroup;
+			children = (
+				AD636E8E1BF24BD00036D3A4 /* AppDelegate.h */,
+				AD636E8F1BF24BD00036D3A4 /* AppDelegate.m */,
+				AD636E911BF24BD00036D3A4 /* ViewController.h */,
+				AD636E921BF24BD00036D3A4 /* ViewController.m */,
+				AD636E941BF24BD00036D3A4 /* Main.storyboard */,
+				AD636E971BF24BD00036D3A4 /* Assets.xcassets */,
+				AD636E991BF24BD00036D3A4 /* LaunchScreen.storyboard */,
+				AD636E9C1BF24BD00036D3A4 /* Info.plist */,
+				AD636E8B1BF24BD00036D3A4 /* Supporting Files */,
+			);
+			path = qrcg;
+			sourceTree = "<group>";
+		};
+		AD636E8B1BF24BD00036D3A4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD636E8C1BF24BD00036D3A4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AD636EA71BF24BF80036D3A4 /* qrcoGenExtension */ = {
+			isa = PBXGroup;
+			children = (
+				AD636EA81BF24BF80036D3A4 /* ActionViewController.h */,
+				AD636EA91BF24BF80036D3A4 /* ActionViewController.m */,
+				AD636EAB1BF24BF80036D3A4 /* MainInterface.storyboard */,
+				AD636EAE1BF24BF80036D3A4 /* Info.plist */,
+			);
+			path = qrcoGenExtension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD636E871BF24BD00036D3A4 /* qrcg */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD636E9F1BF24BD00036D3A4 /* Build configuration list for PBXNativeTarget "qrcg" */;
+			buildPhases = (
+				AD636E841BF24BD00036D3A4 /* Sources */,
+				AD636E851BF24BD00036D3A4 /* Frameworks */,
+				AD636E861BF24BD00036D3A4 /* Resources */,
+				AD636EB51BF24BF90036D3A4 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD636EB01BF24BF80036D3A4 /* PBXTargetDependency */,
+			);
+			name = qrcg;
+			productName = qrcg;
+			productReference = AD636E881BF24BD00036D3A4 /* qrcg.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD636EA51BF24BF80036D3A4 /* qrcoGenExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD636EB21BF24BF90036D3A4 /* Build configuration list for PBXNativeTarget "qrcoGenExtension" */;
+			buildPhases = (
+				AD636EA21BF24BF80036D3A4 /* Sources */,
+				AD636EA31BF24BF80036D3A4 /* Frameworks */,
+				AD636EA41BF24BF80036D3A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = qrcoGenExtension;
+			productName = qrcoGenExtension;
+			productReference = AD636EA61BF24BF80036D3A4 /* qrcoGenExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD636E801BF24BD00036D3A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Carter Chang";
+				TargetAttributes = {
+					AD636E871BF24BD00036D3A4 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					AD636EA51BF24BF80036D3A4 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = AD636E831BF24BD00036D3A4 /* Build configuration list for PBXProject "qrcg" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD636E7F1BF24BD00036D3A4;
+			productRefGroup = AD636E891BF24BD00036D3A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD636E871BF24BD00036D3A4 /* qrcg */,
+				AD636EA51BF24BF80036D3A4 /* qrcoGenExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD636E861BF24BD00036D3A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD636E9B1BF24BD00036D3A4 /* LaunchScreen.storyboard in Resources */,
+				AD636E981BF24BD00036D3A4 /* Assets.xcassets in Resources */,
+				AD636E961BF24BD00036D3A4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD636EA41BF24BF80036D3A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD636EAD1BF24BF80036D3A4 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD636E841BF24BD00036D3A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD636E931BF24BD00036D3A4 /* ViewController.m in Sources */,
+				AD636E901BF24BD00036D3A4 /* AppDelegate.m in Sources */,
+				AD636E8D1BF24BD00036D3A4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD636EA21BF24BF80036D3A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD636EAA1BF24BF80036D3A4 /* ActionViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD636EB01BF24BF80036D3A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD636EA51BF24BF80036D3A4 /* qrcoGenExtension */;
+			targetProxy = AD636EAF1BF24BF80036D3A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AD636E941BF24BD00036D3A4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD636E951BF24BD00036D3A4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AD636E991BF24BD00036D3A4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD636E9A1BF24BD00036D3A4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		AD636EAB1BF24BF80036D3A4 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD636EAC1BF24BF80036D3A4 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD636E9D1BF24BD00036D3A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AD636E9E1BF24BD00036D3A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD636EA01BF24BD00036D3A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = qrcg/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yahoo.qrcg;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AD636EA11BF24BD00036D3A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = qrcg/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yahoo.qrcg;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AD636EB31BF24BF90036D3A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = qrcoGenExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yahoo.qrcg.qrcoGenExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AD636EB41BF24BF90036D3A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = qrcoGenExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yahoo.qrcg.qrcoGenExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD636E831BF24BD00036D3A4 /* Build configuration list for PBXProject "qrcg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD636E9D1BF24BD00036D3A4 /* Debug */,
+				AD636E9E1BF24BD00036D3A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD636E9F1BF24BD00036D3A4 /* Build configuration list for PBXNativeTarget "qrcg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD636EA01BF24BD00036D3A4 /* Debug */,
+				AD636EA11BF24BD00036D3A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AD636EB21BF24BF90036D3A4 /* Build configuration list for PBXNativeTarget "qrcoGenExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD636EB31BF24BF90036D3A4 /* Debug */,
+				AD636EB41BF24BF90036D3A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD636E801BF24BD00036D3A4 /* Project object */;
+}
